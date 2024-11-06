@@ -1,17 +1,28 @@
 {
-  "name": "react-setup",
+  "name": "custom-react-setup",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "bundle": "webpack"
+    "bundle": "webpack",
+    "start": "webpack serve"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
-  "devDependencies": {
+  "dependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9",
+    "babel-loader": "^9.2.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "webpack": "^5.96.1"
+  },
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "style-loader": "^4.0.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.1.0"
   }
