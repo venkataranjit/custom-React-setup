@@ -1,0 +1,59 @@
+1. Introduction to React
+	a. Javascript Modules
+	b. diff b/w react elements and dom elements
+	c. npm & npx (setting up a fresh React project using npm)
+	d. webpack bundler, css  loaders
+	e. jsx and babel compiler
+
+2. VDOM & RDOM
+	a. Reconcilation
+	b. importance of key attribute in a list
+
+3. class component
+	a. state & async nature of setState
+	b. Component life cycle phases & methods
+
+4. Intoduction to Hooks & useState Hook
+	a. useState Hook
+	b. async nature of useState method
+	c. lazy initialization
+	d. state uplifting
+
+5. useEffect Hook
+	a. Cleanup function & their usage
+	b. basic signature & dependency list
+
+6. useRef, forwardRef & useImparativeHandle
+	a. useRef
+	b. forwardRef & HOC
+	c. useImperativeHandle
+
+7. useCallback, useMemo
+	a. useCallback & Dependency List
+	b. useMemo & performance improvement
+
+8. Context Api & prop drilling
+	a. prop drilling & challanges
+	b. context provider & consumer
+	c. memorization using React.memo
+
+9. react routing
+	a. BrowserRouter, Routes & Route
+	b. Nested Routing, Outlet Component
+	c. lazy loading & Suspense Component
+
+10. State Management with Redux
+	a. Redux architecture & Terminology
+	b. Redux Devtools
+	c. store, actions, reducer, subscriber
+	d. useSelector, useDispatch
+
+11. async state management with middleware
+	a. combine reducers with middleware
+	b. asynchronous state updates 
+	c. redux thunk middleware
+
+12. redux toolkit
+	a. cons with redux native
+	b. slices
+	c. advantages of rtk over native redux
